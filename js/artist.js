@@ -360,7 +360,7 @@ $.fn.yt = function(options){
 	}, options);
 	var imeBenda = settings.artName.replace(/&/g, '%26');
 	var imePesme = settings.songName.replace(/&/g, '%26');
-	var apikey = "AIzaSyAFSATiV1JDU2ZwZh5SADOYPoFlWZvmcb4";
+	var apikey = "Youtube API key";
 	var videos = [];
 	var pathnameLink = window.location.href;
 
@@ -504,7 +504,7 @@ $.fn.yt = function(options){
 // Loads recommended dropdown when searching artist
 $.fn.lfmSearchArt = function(options){
 	var settings = $.extend({
-		APIkey:	 "c522439248d3de58f5bd0ba2d4af71af",
+		APIkey:	 "Last.fm API key",
 		limit:	 10,
 		artName: null
 	}, options);
@@ -556,7 +556,7 @@ var artInfoLoaded = false,
 // Load artist info
 $.fn.lfmInfo = function(options){
 	var settings = $.extend({
-		APIkey:	"c522439248d3de58f5bd0ba2d4af71af",
+		APIkey:	"Last.fm API key",
 		ime:    null
 	}, options);
 	var imeBenda = settings.ime.replace(/&/g, '%26').replace(/\+/g, '%2B').replace(/ /g, '%20');
@@ -665,7 +665,7 @@ $.fn.lfmInfo = function(options){
 // Load similar artists
 $.fn.lfmSimilar = function(options){
 	var settings = $.extend({
-		APIkey:	"c522439248d3de58f5bd0ba2d4af71af",
+		APIkey:	"Last.fm API key",
 		limit:	25,
 		tag:    null,
 	}, options);
@@ -711,7 +711,7 @@ $.fn.lfmSimilar = function(options){
 // Load artist tracks
 $.fn.lfmTracks = function(options){
 	var settings = $.extend({
-		APIkey:		"c522439248d3de58f5bd0ba2d4af71af",
+		APIkey:		"Last.fm API key",
 		ime:        null,
 		limit:		25,
 		cont:       null
@@ -807,7 +807,7 @@ var genInfoLoaded = false,
 // Load genre info
 $.fn.lfmTagInfo = function(options){
 	var settings = $.extend({
-		APIkey:	"c522439248d3de58f5bd0ba2d4af71af",
+		APIkey:	"Last.fm API key",
 		ime:    null
 	}, options);
 	var imetaga = settings.ime.replace(/&/g, '%26').replace(/\+/g, '%2B');
@@ -881,7 +881,7 @@ $.fn.lfmTagInfo = function(options){
 // Load Top tracks for genre
 $.fn.lfmTagTracks = function(options){
 	var settings = $.extend({
-		APIkey:		"c522439248d3de58f5bd0ba2d4af71af",
+		APIkey:		"Last.fm API key",
 		ime:        null,
 		limit:		25,
 		cont:       null
@@ -989,7 +989,7 @@ $.fn.lyrics = function(options){
 // Load Top Artists for Genre
 $.fn.lfmTagSimilar = function(options){
 	var settings = $.extend({
-		APIkey:	"c522439248d3de58f5bd0ba2d4af71af",
+		APIkey:	"Last.fm API key",
 		limit:	25,
 		tag:    null,
 	}, options);
